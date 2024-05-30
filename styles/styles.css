@@ -198,6 +198,13 @@ code {
     text-align: left;
 }
 
+.calendar {
+    border-radius: 5px;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+}
+
 html,
 body {
     padding: 0;
