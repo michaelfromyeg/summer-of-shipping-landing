@@ -3,3 +3,5 @@ href
 frameborder
 br
 &larr
+noopener
+noreferrer
