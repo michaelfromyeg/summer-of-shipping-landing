@@ -5,3 +5,5 @@ br
 &larr
 noopener
 noreferrer
+SummerOfShipping
+SOSDayX

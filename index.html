@@ -52,6 +52,16 @@
                     happening on Thursday, May 30th at 5:00:00pm PST. Fill out
                     the interest form above for the Zoom link!
                 </p> -->
+                <div>
+                    <p style="text-align: center">
+                        Once you join the Discord, it's time to build. Share
+                        updates on your projects daily with our community on
+                        Twitter with #SummerOfShipping #SOSDayX.
+                    </p>
+                    <p style="text-align: center; font-size: larger">
+                        <b id="days-counter">Today is day X!</b>
+                    </p>
+                </div>
                 <div class="grid">
                     <a
                         href="https://youtube.com/watch?v=gTVL8xhH44A"
@@ -109,5 +119,26 @@
                 ></iframe>
             </main>
         </div>
+
+        <script>
+            // Define the start date
+            const startDate = new Date("2024-05-30");
+
+            // Get the current date
+            const currentDate = new Date();
+
+            // Calculate the difference in time
+            const timeDifference = currentDate - startDate;
+
+            // Convert the time difference to days
+            const daysDifference = Math.floor(
+                timeDifference / (1000 * 60 * 60 * 24)
+            );
+
+            // Update the paragraph content
+            document.getElementById(
+                "days-counter"
+            ).textContent = `Today is day ${daysDifference}!`;
+        </script>
     </body>
 </html>
