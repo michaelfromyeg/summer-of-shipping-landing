@@ -48,6 +48,7 @@ body {
     width: 100%;
     max-width: 300px;
     text-align: center;
+    text-decoration: none;
 }
 
 main {
@@ -79,8 +80,8 @@ footer a {
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+    color: #4dd0e1;
+    text-decoration: underline;
 }
 
 .title a {
@@ -98,6 +99,14 @@ a {
     margin: 0;
     line-height: 1.15;
     font-size: 2rem;
+    text-align: center;
+}
+
+.subtitle {
+    color: whitesmoke;
+    margin: 0;
+    line-height: 1.5;
+    font-size: 1.5rem;
     text-align: center;
 }
 
@@ -219,6 +228,7 @@ code {
     width: 100%;
     height: auto;
     min-height: 400px;
+    background-color: white;
 }
 
 @media (min-width: 600px) {
@@ -237,4 +247,61 @@ code {
         width: 100%;
         height: 600px;
     }
+}
+
+/* FAQ Section Styling */
+.faq {
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+}
+
+.faq h4 {
+    font-size: 1.2rem;
+    color: #4dd0e1;
+    margin: 0;
+}
+
+.faq p {
+    font-size: 1rem;
+    color: #adadad;
+    margin: 0.5rem 0;
+}
+
+.faq summary {
+    cursor: pointer;
+    padding: 1rem;
+    background-color: #2e2e2e;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq summary::marker {
+    color: #4dd0e1;
+}
+
+.faq summary:hover {
+    background-color: #4dd0e1;
+    color: #212121;
+}
+
+.faq details {
+    /* border: 1px solid #4dd0e1; */
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.faq details[open] summary {
+    background-color: #4dd0e1;
+    color: #212121;
+}
+
+.faq details p {
+    padding: 0.5rem 1rem;
 }
