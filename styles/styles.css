@@ -305,3 +305,58 @@ code {
 .faq details p {
     padding: 0.5rem 1rem;
 }
+
+/* Syllabus */
+
+.syllabus {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+
+.syllabus th,
+.syllabus td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.syllabus th {
+    color: rgba(33, 33, 33, 1);
+    background-color: rgba(77, 208, 225, 1);
+    font-weight: bold;
+    text-align: center;
+}
+
+.syllabus td:first-child {
+    text-align: center;
+}
+
+.syllabus td:nth-child(2) {
+    text-align: center;
+}
+
+.syllabus td:nth-child(4) {
+    text-align: center;
+}
+
+.syllabus td:nth-child(5) {
+    text-align: center;
+}
+
+.syllabus tr:nth-child(even) {
+    background-color: #262626;
+}
+
+.syllabus tr:hover {
+    background-color: #373737;
+}
+
+.syllabus a {
+    color: white;
+    text-decoration: none;
+}
+
+.syllabus a:hover {
+    text-decoration: underline;
+}

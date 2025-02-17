@@ -7,3 +7,8 @@ noopener
 noreferrer
 SummerOfShipping
 SOSDayX
+thead
+th
+tbody
+td
+faq
